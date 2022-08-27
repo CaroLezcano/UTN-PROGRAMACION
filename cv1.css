@@ -1,0 +1,38 @@
+h1{
+    background-color: pink;
+    color: darkslategray;
+    text-align: center;
+    font-size: 40px;
+}
+
+h2 {text-align: center;
+    color: darkslategray;
+    font-size: 27px;
+
+}
+
+img {
+    margin: auto;
+    display: block;
+width: 40%
+ 
+}
+h3 {
+    font-size: 45px;
+    color: darkblue;
+    
+}
+p {
+    font-style: oblique;
+    font-size: 20px;
+    }
+    h5 {
+        font-size: 35px;
+        color: darkslategrey;
+    }
+    h4{
+        font-size: 30px;
+    }
+    li {
+        font-size: 20px;
+    }

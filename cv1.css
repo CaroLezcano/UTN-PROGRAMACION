@@ -3,6 +3,7 @@ h1{
     color: darkslategray;
     text-align: center;
     font-size: 40px;
+    font-family: 'Alfa Slab One', cursive;
 }
 
 h2 {text-align: center;
@@ -20,6 +21,7 @@ width: 40%
 h3 {
     font-size: 45px;
     color: darkblue;
+    font-family: 'Rubik Dirt', cursive;
     
 }
 p {
@@ -35,4 +37,8 @@ p {
     }
     li {
         font-size: 20px;
+    }
+
+    h4{
+
     }

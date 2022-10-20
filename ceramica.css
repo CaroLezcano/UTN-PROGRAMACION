@@ -86,13 +86,14 @@ margin-bottom: 20px;
    font-size: 30px;
  }
 
- .img-galeria{
-   display: flex;
-   flex-wrap: wrap;
-   flex-direction: row;
-   align-items: center;
-   justify-content: center;
-
+ .galeria img{
+   width: 15%;
+   border: 5px, solid #ddd;
+   padding: 5px;
+   box-sizing: border-box;
+   margin-bottom: 25px;
+   margin-right: 2%;
+ 
  }
  img:hover{
    opacity: .8;

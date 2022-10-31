@@ -4,21 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="ejercicio1.css">
     <title>Document</title>
 </head>
 <body>
-<h1>Ejercicio 1</h1>
+    <script>
+        var metros = 25000;
+		var transporte = '';
 
-<div class="contenedor">
-    <div class="item1"> 1</div>
-    <div class="item2"> 2</div>
-    <div class="item3"> 3</div>
+		if (metros > 0 && metros <= 1000) {
+			transporte = 'pie';
+		} else if (metros > 1000 && metros <= 10000) {
+			transporte =  'bicicleta';
+		} else if (metros > 10000 && metros <= 30000) {
+			transporte =  'colectivo';
+		} else if (metros > 30000 && metros <= 100000) {
+			transporte =  'auto';
+		} else if (metros > 100000 ) {
+			transporte =  'avion';
+		} 
+
+		console.log('Para ' + metros + ' metros recomendamos ir en ' + transporte);  
 
 
-</div>
 
 
-    
+
+    </script>
 </body>
 </html>
